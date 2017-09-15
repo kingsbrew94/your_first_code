@@ -1,9 +1,12 @@
+//Create a main function
 int main()
 {
-  int i;
-  for (i = 0; i < 10; i++)
+  int i; // i declared to run a loop
+  // Run a loop for at most 32 times
+  for (i = 0; i < 32; i++)
   {
-    printf("Holberton\n");
-  }
-  return 0;
+    // Print Hello Holberton for 32 times 
+    printf("Hello Holberton\n");
+  } // Close the loop
+  return 0; // return zero
 }
